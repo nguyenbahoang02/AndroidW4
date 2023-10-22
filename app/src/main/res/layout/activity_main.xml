@@ -29,7 +29,7 @@
             android:padding="16sp"
             android:id="@+id/factor">
     </TextView>
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -40,10 +40,10 @@
             android:layout_rowSpan="1"
             android:text="@string/ce"
             android:textSize="24sp"
-            android:background="#bbb"
+            android:background="@drawable/rec_button_2"
             android:id="@+id/ce">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -54,10 +54,10 @@
             android:layout_rowSpan="1"
             android:text="@string/c"
             android:textSize="24sp"
-            android:background="#bbb"
+            android:background="@drawable/rec_button_2"
             android:id="@+id/c">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -68,10 +68,10 @@
             android:layout_rowSpan="1"
             android:text="@string/bs"
             android:textSize="24sp"
-            android:background="#bbb"
+            android:background="@drawable/rec_button_2"
             android:id="@+id/bs">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -82,10 +82,10 @@
             android:layout_rowSpan="1"
             android:text="@string/slash"
             android:textSize="24sp"
-            android:background="#bbb"
+            android:background="@drawable/rec_button_2"
             android:id="@+id/divide">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -96,10 +96,10 @@
             android:layout_rowSpan="1"
             android:text="@string/_7"
             android:textSize="24sp"
-            android:background="#ddd"
+            android:background="@drawable/rec_button"
             android:id="@+id/number7">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -110,10 +110,10 @@
             android:layout_rowSpan="1"
             android:text="@string/_8"
             android:textSize="24sp"
-            android:background="#ddd"
+            android:background="@drawable/rec_button"
             android:id="@+id/number8">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -124,10 +124,10 @@
             android:layout_rowSpan="1"
             android:text="@string/_9"
             android:textSize="24sp"
-            android:background="#ddd"
+            android:background="@drawable/rec_button"
             android:id="@+id/number9">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -138,10 +138,10 @@
             android:layout_rowSpan="1"
             android:text="@string/x"
             android:textSize="20sp"
-            android:background="#bbb"
+            android:background="@drawable/rec_button_2"
             android:id="@+id/multiply">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -152,10 +152,10 @@
             android:layout_rowSpan="1"
             android:text="@string/_4"
             android:textSize="24sp"
-            android:background="#ddd"
+            android:background="@drawable/rec_button"
             android:id="@+id/number4">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -166,10 +166,10 @@
             android:layout_rowSpan="1"
             android:text="@string/_5"
             android:textSize="24sp"
-            android:background="#ddd"
+            android:background="@drawable/rec_button"
             android:id="@+id/number5">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -180,10 +180,10 @@
             android:layout_rowSpan="1"
             android:text="@string/_6"
             android:textSize="24sp"
-            android:background="#ddd"
+            android:background="@drawable/rec_button"
             android:id="@+id/number6">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -194,10 +194,10 @@
             android:layout_rowSpan="1"
             android:text="@string/minus"
             android:textSize="24sp"
-            android:background="#bbb"
+            android:background="@drawable/rec_button_2"
             android:id="@+id/minus">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -208,10 +208,10 @@
             android:layout_rowSpan="1"
             android:text="@string/_1"
             android:textSize="24sp"
-            android:background="#ddd"
+            android:background="@drawable/rec_button"
             android:id="@+id/number1">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -222,10 +222,10 @@
             android:layout_rowSpan="1"
             android:text="@string/_2"
             android:textSize="24sp"
-            android:background="#ddd"
+            android:background="@drawable/rec_button"
             android:id="@+id/number2">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -236,10 +236,10 @@
             android:layout_rowSpan="1"
             android:text="@string/_3"
             android:textSize="24sp"
-            android:background="#ddd"
+            android:background="@drawable/rec_button"
             android:id="@+id/number3">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -250,10 +250,10 @@
             android:layout_rowSpan="1"
             android:text="@string/plus"
             android:textSize="24sp"
-            android:background="#bbb"
+            android:background="@drawable/rec_button_2"
             android:id="@+id/plus">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -264,10 +264,10 @@
             android:layout_rowSpan="1"
             android:text="@string/change"
             android:textSize="24sp"
-            android:background="#bbb"
+            android:background="@drawable/rec_button_2"
             android:id="@+id/change">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -278,10 +278,10 @@
             android:layout_rowSpan="1"
             android:text="@string/_0"
             android:textSize="24sp"
-            android:background="#ddd"
+            android:background="@drawable/rec_button"
             android:id="@+id/number0">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -292,10 +292,10 @@
             android:layout_rowSpan="1"
             android:text="@string/dot"
             android:textSize="24sp"
-            android:background="#bbb"
+            android:background="@drawable/rec_button_2"
             android:id="@+id/dot">
-    </androidx.appcompat.widget.AppCompatButton>
-    <androidx.appcompat.widget.AppCompatButton
+    </Button>
+    <Button
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_height="0dp"
@@ -308,5 +308,5 @@
             android:textSize="24sp"
             android:background="#bbb"
             android:id="@+id/equal">
-    </androidx.appcompat.widget.AppCompatButton>
+    </Button>
 </GridLayout>
